@@ -8,7 +8,7 @@ int main()
     cout<<obeb(40,30)<<endl<<okek(40,30);
     return 0;
 }
-//ebob function
+//obeb function
 int obeb(int a,int b){
     int Obeb = 0;
     if(a>b)
@@ -33,7 +33,7 @@ int obeb(int a,int b){
     }
     return Obeb;
 }
-//ekok function
+//okek function
 int okek(int a, int b)
 {
     int Okek = (a*b)/obeb(a,b);
